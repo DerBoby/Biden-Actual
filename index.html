@@ -183,6 +183,27 @@
   }
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
 
+  /* — SECTION DIVIDER — */
+  .section-label{
+    font-family:'Share Tech Mono',monospace;
+    font-size:11px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    color:rgba(0,255,80,.45);
+    text-align:center;
+    padding:10px 0;
+  }
+  .associates-table tbody tr:hover td:first-child{
+    border-left-color:#ff6a00;
+  }
+  .associates-table tbody tr:hover .callsign{
+    color:#ff6a00 !important;
+    text-shadow:0 0 12px rgba(255,106,0,.4) !important;
+  }
+  .associates-table tbody tr:hover{
+    background:rgba(255,106,0,.06);
+  }
+
   /* — FOOTER — */
   .footer{
     margin-top:28px;
@@ -278,12 +299,41 @@
         <td><span class="rank-num">10</span> <span class="callsign">RebornBee</span></td>
         <td><span class="designation">Joseph R. Biden Sr. Actual</span></td>
         <td><span class="status active">Active</span></td>
-       </tr>
-       <tr>
+      </tr>
+      <tr>
         <td><span class="rank-num">11</span> <span class="callsign">damag</span></td>
         <td><span class="designation">Francis Biden Actual</span></td>
         <td><span class="status active">Active</span></td>
-       </tr>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ASSOCIATES SECTION -->
+  <div class="section-divider">
+    <div class="divider-line" style="width:100%;margin:32px auto 0"></div>
+    <div class="section-label">&#9670; Known Associates &#9670;</div>
+    <div class="divider-line" style="width:100%;margin:0 auto 20px"></div>
+  </div>
+
+  <table class="roster-table associates-table">
+    <thead>
+      <tr>
+        <th>Callsign (Discord)</th>
+        <th>Designation</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="rank-num">A1</span> <span class="callsign">Bobthemagicdragon</span></td>
+        <td><span class="designation">Vladimir Biden Actual</span></td>
+        <td><span class="status active">Active</span></td>
+      </tr>
+      <tr>
+        <td><span class="rank-num">A2</span> <span class="callsign">EddieTheH3ad</span></td>
+        <td><span class="designation">-Redacted-</span></td>
+        <td><span class="status active">Active</span></td>
+      </tr>
     </tbody>
   </table>
 
